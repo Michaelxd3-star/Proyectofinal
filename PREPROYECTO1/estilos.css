@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url(pexels-tara-winstead-8386440.jpg);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em; /* Tamaño grande para el título principal */
+    
+}
+
+header p {
+    font-size: 1.2em;
+
+}
+
+
+.navbar {
+    background-color: #cc0000; /* Rojo oscuro para la barra de navegación */
+    color: #fff;
+    margin-bottom: 20px; /* Espacio inferior */
+    border-bottom: 2px solid #990000; /* Borde inferior */
+    }
+    
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 40px; /* Espacio entre elementos de la lista */
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Sin margen a la derecha para el último elemento */
+}
+
+.navbar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s;
+
+    
+}
+
+.navbar ul li a:hover {
+    background-color: #990000; /* Cambio de color al pasar el mouse */
+}
+
+
+main {
+    margin-top: 20px;
+}
+
+.section-bg {
+    background-color: #fff; /* Fondo blanco para las secciones */
+    border-radius: 70px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-bottom: 40px; /* Espacio inferior */
+    padding: 10px;
+    margin: 50px 50px;
+    
+   
+}
+
+.section-title{
+    text-align: center; /* Centrar títulos */
+    color: #cc0000; /* Color rojo oscuro */
+    font-size: 2.8em; /* Tamaño grande para los títulos de sección */
+    border-bottom: 2px solid #cc0000; /* Línea decorativa debajo de los títulos */
+    padding-bottom: 10px;
+    }
+
+    
